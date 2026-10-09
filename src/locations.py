@@ -1,10 +1,10 @@
 """
-Student 1: Campus Locations
+Campus Locations
 
-Your task is to maintain the list of available campus locations.
-You need to define the locations and return them as a list of strings.
+Maintain the list of available campus locations.
+Define a list of campus locations as strings and return them.
 
-Example Data Structure:
+Example format:
 LOCATIONS = [
     "Main Gate",
     "Library",
@@ -12,9 +12,17 @@ LOCATIONS = [
 ]
 """
 
+# Define the campus locations list
+LOCATIONS = [
+    # Add locations here
+]
+
+
 def get_locations():
     """
     Returns the list of all valid locations on campus.
     """
-    # TODO: Implement this function and define the LOCATIONS list
+    # TODO: Return the LOCATIONS list
     pass
+
+

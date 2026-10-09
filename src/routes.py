@@ -1,13 +1,14 @@
 """
-Student 2: Campus Connections (Routes)
+Campus Connections (Routes)
 
-Your task is to represent the connections between different locations and the distance between them.
+Represent the connections between different locations and the distance between them.
 Use a dictionary where the keys are locations, and the values are also dictionaries 
 representing connected locations and the distance in meters.
 
-Make sure the graph is bidirectional (if Main Gate connects to CSE Block, CSE Block connects to Main Gate).
+Make sure the graph is bidirectional:
+if Main Gate connects to CSE Block, CSE Block must also connect to Main Gate with the same distance.
 
-Example Data Structure:
+Example format:
 ROUTES = {
     "Main Gate": {
         "CSE Block": 120,
@@ -22,5 +23,7 @@ ROUTES = {
 }
 """
 
-# TODO: Define the full ROUTES dictionary
+# TODO: Define the full ROUTES dictionary following the example above
 ROUTES = {}
+
+

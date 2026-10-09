@@ -1,14 +1,15 @@
 """
-Student 4: Output & Display Formatting
+Output & Display Formatting
 
-Your task is to neatly display the chosen route and the total distance to the user.
+Neatly display the chosen route and the total distance to the user in the terminal.
 
-Example Output:
-Shortest route:
-Main Gate -> CSE Block -> Library
+Example output:
+    Shortest route:
+    Main Gate -> CSE Block -> Library
 
-Total distance: 200 m
+    Total distance: 200 m
 """
+
 
 def display_route(route, distance):
     """
@@ -20,3 +21,5 @@ def display_route(route, distance):
     """
     # TODO: Implement the logic to format and print the route and distance
     pass
+
+

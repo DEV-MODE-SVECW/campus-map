@@ -1,18 +1,19 @@
 """
-Student 5: Main Application & Input Validation
+Main Application & Input Validation
 
-Your task is to tie everything together. 
+Tie all modules together to run the campus navigator:
 1. Get the list of locations and print them.
 2. Ask the user for a source and destination.
-3. Validate the input (check if source/destination exist, are not the same, etc.).
-4. Call the navigator to find the route.
-5. Call the display function to show the result.
+3. Validate user input (e.g. check if locations exist, source is not destination).
+4. Call find_shortest_route() from navigator.
+5. Call display_route() to show the result.
 """
 
 from locations import get_locations
 from routes import ROUTES
 from navigator import find_shortest_route
 from display import display_route
+
 
 def main():
     print("========================================")
@@ -33,5 +34,8 @@ def main():
     # TODO: 6. Call display_route(route, distance)
     pass
 
+
 if __name__ == "__main__":
     main()
+
+
